@@ -2,4 +2,5 @@
     <string name="app_name">OnboardingApp</string>
     <string name="get_started">Get started</string>
     <string name="skip">Skip</string>
+    <string name="tutaj_mo_esz_si_z_nami_skontaktowa">Tutaj możesz się z nami skontaktować</string>
 </resources>

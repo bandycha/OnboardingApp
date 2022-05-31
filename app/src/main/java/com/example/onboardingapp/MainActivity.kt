@@ -25,12 +25,13 @@ class MainActivity : AppCompatActivity() {
 
         auth = FirebaseAuth.getInstance()
 
+
+        binding.btnLogin.setOnClickListener {
+            doLogin()
+        }
         binding.signUp.setOnClickListener {
             startActivity(Intent(this, RegisterActivity::class.java))
             finish()
-        }
-        binding.btnLogin.setOnClickListener {
-            doLogin()
         }
     }
 
@@ -125,11 +126,11 @@ class MainActivity : AppCompatActivity() {
          //   Toast.makeText(this, "User first time login", Toast.LENGTH_LONG).show()
        // }*/
 
-   //  public override fun onStart() {
-      //      super.onStart()
-       //     val currentUser = auth.currentUser
-        //     updateUI(currentUser)
-  //  }
+   public override fun onStart() {
+      super.onStart()
+      val currentUser = auth.currentUser
+       updateUI(currentUser)
+   }
 
    private fun updateUI (currentUser: FirebaseUser?) {
 

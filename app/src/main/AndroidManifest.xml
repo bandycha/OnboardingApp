@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OnboardingApp">
         <activity
+            android:name=".AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BenefitsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FormalitiesActivity"
+            android:exported="false" />
+        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
