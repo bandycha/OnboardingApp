@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "263533351614",
+    "project_id": "onboardingapp-983b5",
+    "storage_bucket": "onboardingapp-983b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263533351614:android:835c4d951129df25d084ef",
+        "android_client_info": {
+          "package_name": "com.example.onboardingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263533351614-a0u4h0i5415kpg5387nt78lon7lvmak6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTtJcLtF64z3W5j8Y_80GA0uX3I4qXJ9c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263533351614-a0u4h0i5415kpg5387nt78lon7lvmak6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

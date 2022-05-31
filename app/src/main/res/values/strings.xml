@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OnboardingApp</string>
+    <string name="get_started">Get started</string>
+    <string name="skip">Skip</string>
+</resources>
