@@ -57,7 +57,7 @@
                 android:textColor="@color/black"
                 android:layout_marginTop="10dp"
 
-                android:text="Formalities"/>
+                android:text="Formalności"/>
 
             <TextView
                 android:layout_width="110dp"
@@ -68,7 +68,7 @@
                 android:textSize="11sp"
                 android:textColor="@color/black"
                 android:layout_marginTop="10dp"
-                android:text="Finish your onboarding process. Check what steps you have left!"
+                android:text="Zakończ swój proces wdrażania. Sprawdź, jakie jeszcze formalności Ci pozostały."
                 />
 
         </LinearLayout>
@@ -115,7 +115,7 @@
                 android:textColor="@color/black"
                 android:layout_marginTop="10dp"
 
-                android:text="Benefits"/>
+                android:text="Benefity"/>
 
             <TextView
                 android:layout_width="110dp"
@@ -126,7 +126,7 @@
                 android:textSize="11sp"
                 android:textColor="@color/black"
                 android:layout_marginTop="10dp"
-                android:text="Here you can know more about benefits you can use from day one."
+                android:text="Tutaj dowiesz się więcej o benefitach, z których możesz skorzystać już od pierwszego dnia."
                 />
 
         </LinearLayout>
@@ -172,7 +172,7 @@
                 android:textSize="16sp"
                 android:textColor="@color/black"
                 android:layout_marginTop="10dp"
-                android:text="Contact"/>
+                android:text="Kontakt"/>
 
             <TextView
                 android:layout_width="110dp"
@@ -183,7 +183,7 @@
                 android:textSize="11sp"
                 android:textColor="@color/black"
                 android:layout_marginTop="10dp"
-                android:text="Any questions? Find your manager and write us an email!"
+                android:text="Masz jakieś pytania? Skontaktuj się bezpośrednio ze swoim managerem lub rekruterem."
                 />
 
         </LinearLayout>
@@ -231,7 +231,7 @@
                 android:textColor="@color/black"
                 android:layout_marginTop="10dp"
 
-                android:text="About us"/>
+                android:text="O nas"/>
 
             <TextView
                 android:layout_width="110dp"
@@ -242,7 +242,7 @@
                 android:textSize="11sp"
                 android:textColor="@color/black"
                 android:layout_marginTop="10dp"
-                android:text="Get even more knowledge about what we do!"
+                android:text="Dowiedz się jeszcze więcej wiedzy o tym, czym zajmuje się nasza firma."
                 />
 
         </LinearLayout>

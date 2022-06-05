@@ -29,7 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="Here you can create a new account!"
+            android:text="Tutaj możesz stworzyć nowe konto"
             android:textSize="16sp" />
 
 
@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:background="@drawable/login_edit_background"
-            android:drawableStart="@drawable/person"
+            android:drawableStart="@drawable/ic_person"
             android:drawablePadding="10dp"
             android:hint="Email"
             android:minHeight="48dp"
@@ -52,9 +52,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:background="@drawable/login_edit_background"
-        android:drawableStart="@drawable/lock"
+        android:drawableStart="@drawable/ic_lock"
         android:drawablePadding="10dp"
-        android:hint="Password"
+        android:hint="Hasło"
         android:minHeight="48dp"
         android:padding="10dp" />
 
@@ -64,9 +64,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:background="@drawable/login_edit_background"
-            android:drawableStart="@drawable/lock"
+            android:drawableStart="@drawable/ic_lock"
             android:drawablePadding="10dp"
-            android:hint="Confirm password"
+            android:hint="Potwierdź hasło"
             android:minHeight="48dp"
             android:padding="10dp" />
 
@@ -80,7 +80,7 @@
             android:background="@drawable/button_background"
             android:minWidth="200dp"
             android:minHeight="48dp"
-            android:text="Register"
+            android:text="Zarejestruj"
             android:textAllCaps="false"
             android:textSize="21sp" />
 
@@ -89,7 +89,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="Take me back to login"
+            android:text="Wróć do logowania"
             android:textSize="21sp" />
     </LinearLayout>
     </RelativeLayout>

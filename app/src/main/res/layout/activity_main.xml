@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/login_background"
     tools:context=".MainActivity">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,9 +30,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/login_edit_background"
-            android:drawableStart="@drawable/person"
+            android:drawableStart="@drawable/ic_person"
             android:drawablePadding="10dp"
-            android:hint="Username"
+            android:hint="Nazwa użytkownika"
             android:minHeight="48dp"
             android:padding="10dp" />
 
@@ -38,9 +42,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:background="@drawable/login_edit_background"
-            android:drawableStart="@drawable/lock"
+            android:drawableStart="@drawable/ic_lock"
             android:drawablePadding="10dp"
-            android:hint="Password"
+            android:hint="Hasło"
             android:inputType="textPassword"
             android:minHeight="48dp"
             android:padding="10dp" />
@@ -50,7 +54,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="end"
             android:padding="10dp"
-            android:text="Forgot password?"/>
+            android:text="Nie pamiętam hasła"/>
 
 
         <Button
@@ -63,7 +67,7 @@
             android:background="@drawable/button_background"
             android:minWidth="200dp"
             android:minHeight="48dp"
-            android:text="Login"
+            android:text="Zaloguj"
             android:textAllCaps="false"
             android:textSize="21sp" />
 
@@ -72,9 +76,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="Sign Up"
+            android:text="Zarejestruj się"
             android:textSize="21sp" />
 
     </LinearLayout>
 
 </RelativeLayout>
+</ScrollView>
