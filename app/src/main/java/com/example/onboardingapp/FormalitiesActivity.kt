@@ -1,10 +1,8 @@
 package com.example.onboardingapp
 
-import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.example.onboardingapp.databinding.ActivityFormalitiesBinding
-import com.example.onboardingapp.databinding.ActivityRegisterBinding
 
 class FormalitiesActivity : AppCompatActivity() {
 

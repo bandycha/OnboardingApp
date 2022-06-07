@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/login_background"
-    tools:context=".MainActivity">
-
-    <RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:fillViewport="true"
+    tools:context=".LoginActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
+        android:gravity="center"
         android:orientation="vertical">
 
         <ImageView
@@ -54,7 +50,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="end"
             android:padding="10dp"
-            android:text="Nie pamiętam hasła"/>
+            android:text="Nie pamiętam hasła" />
 
 
         <Button
@@ -81,5 +77,4 @@
 
     </LinearLayout>
 
-</RelativeLayout>
 </ScrollView>

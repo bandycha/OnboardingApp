@@ -1,7 +1,7 @@
 package com.example.onboardingapp
 
-data class DashboardItem (
+data class DashboardItem(
     val dashboardImage: Int,
-            val title: String,
-                    val description: String
+    val title: String,
+    val description: String,
 )

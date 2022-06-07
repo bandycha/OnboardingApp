@@ -2,12 +2,10 @@ package com.example.onboardingapp
 
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Patterns
-
 import android.widget.Toast
-
+import androidx.appcompat.app.AppCompatActivity
 import com.example.onboardingapp.databinding.ActivityRegisterBinding
 import com.google.firebase.auth.FirebaseAuth
 
@@ -37,7 +35,7 @@ class RegisterActivity : AppCompatActivity() {
         }
 
         binding.backLogin.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
 
         }
@@ -81,7 +79,7 @@ class RegisterActivity : AppCompatActivity() {
                     user!!.sendEmailVerification()
                         .addOnCompleteListener { task ->
                             if (task.isSuccessful) {
-                                startActivity(Intent(this, MainActivity::class.java))
+                                startActivity(Intent(this, LoginActivity::class.java))
                                 finish()
                             }
                         }
@@ -100,11 +98,7 @@ class RegisterActivity : AppCompatActivity() {
     }
 
 
-
-
 }
-
-
 
 
 /*   binding.register.setOnClickListener {
