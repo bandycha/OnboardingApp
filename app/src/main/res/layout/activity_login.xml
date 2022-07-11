@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/login_background"
     android:fillViewport="true"
     tools:context=".LoginActivity">
@@ -19,7 +20,7 @@
             android:layout_width="210dp"
             android:layout_height="210dp"
             android:layout_gravity="center_horizontal"
-            android:src="@drawable/logo" />
+            android:src="@drawable/white_logo" />
 
         <EditText
             android:id="@+id/edUsername"
@@ -50,7 +51,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="end"
             android:padding="10dp"
-            android:text="Nie pamiętam hasła" />
+            android:text="Nie pamiętam hasła"
+            android:textColor="@color/white"/>
 
 
         <Button
@@ -65,7 +67,9 @@
             android:minHeight="48dp"
             android:text="Zaloguj"
             android:textAllCaps="false"
-            android:textSize="21sp" />
+            android:textSize="21sp"
+            app:backgroundTint="@null"
+            />
 
         <TextView
             android:id="@+id/signUp"
@@ -73,6 +77,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="Zarejestruj się"
+            android:textColor="@color/white"
             android:textSize="21sp" />
 
     </LinearLayout>

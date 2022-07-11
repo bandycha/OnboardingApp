@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/login_background"
     android:fillViewport="true"
     tools:context=".RegisterActivity">
@@ -19,14 +20,15 @@
         android:layout_width="210dp"
         android:layout_height="210dp"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/logo" />
+        android:src="@drawable/white_logo" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="Tutaj możesz stworzyć nowe konto"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:textColor="@color/white"/>
 
 
         <EditText
@@ -77,7 +79,8 @@
             android:minHeight="48dp"
             android:text="Zarejestruj"
             android:textAllCaps="false"
-            android:textSize="21sp" />
+            android:textSize="21sp"
+            app:backgroundTint="@null"/>
 
         <TextView
             android:id="@+id/backLogin"
@@ -85,6 +88,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="Wróć do logowania"
-            android:textSize="21sp" />
+            android:textSize="21sp"
+            android:textColor="@color/white"/>
     </LinearLayout>
 </ScrollView>

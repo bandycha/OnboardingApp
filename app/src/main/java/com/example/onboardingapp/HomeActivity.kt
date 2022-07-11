@@ -1,5 +1,6 @@
 package com.example.onboardingapp
 
+
 import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
@@ -7,6 +8,7 @@ import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import com.example.onboardingapp.databinding.ActivityHomeBinding
 import com.google.firebase.auth.FirebaseAuth
+
 
 class HomeActivity : AppCompatActivity() {
 
@@ -37,8 +39,6 @@ class HomeActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        // TODO save username during registration
-        // TODO use string resources instead of hardcoded strings
         val title = when (val name = FirebaseAuth.getInstance().currentUser?.displayName) {
             null -> "Hej!"
             else -> "Hej $name!"
@@ -65,5 +65,14 @@ class HomeActivity : AppCompatActivity() {
         val intent = Intent(this, LoginActivity::class.java)
         startActivity(intent)
         finish()
+        clear()
+
+        }
+
+    private fun clear() {
+       val sharedPref = getSharedPreferences("myPref", MODE_PRIVATE)
+       val editorPref = sharedPref.edit()
+       editorPref.clear()
+       editorPref.apply()
+      }
     }
-}

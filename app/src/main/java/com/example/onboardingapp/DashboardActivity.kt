@@ -27,7 +27,7 @@ class DashboardActivity : AppCompatActivity() {
             listOf(
                 DashboardItem(
                     dashboardImage = R.drawable.page1, "Witaj w naszej firmie!",
-                    description = "Cieszymy się, że pozytywnie przeszedłeś proces rekrutacyjny. Ta aplikacja pomoże Ci w zorganizowaniu swoich pierwszych dni w pracy."
+                    description = "Cieszymy się, że pozytywnie przeszedłeś proces rekrutacyjny.Ta aplikacja pomoże Ci w zorganizowaniu swoich pierwszych dni w pracy."
                 ),
                 DashboardItem(
                     dashboardImage = R.drawable.page2, "Benefity",
@@ -35,7 +35,7 @@ class DashboardActivity : AppCompatActivity() {
                 ),
                 DashboardItem(
                     dashboardImage = R.drawable.page3, "Dokumenty",
-                    description = "Możesz też sprawdzić, jakie formalności zostały Ci jeszcze do zrobienia, aby zakońćzyć proces zatrudnienia. W razie pytań możesz skontaktować się ze swoim rekruterem"
+                    description = "Możesz też sprawdzić, jakie formalności zostały Ci jeszcze do zrobienia, aby zakońćzyć proces zatrudnienia.W razie pytań możesz skontaktować się ze swoim rekruterem"
                 )
             )
         )

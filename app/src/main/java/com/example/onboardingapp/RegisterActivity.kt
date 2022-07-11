@@ -8,6 +8,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.onboardingapp.databinding.ActivityRegisterBinding
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.FirebaseDatabase
 
 
 @Suppress("NAME_SHADOWING")
@@ -22,13 +23,6 @@ class RegisterActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         auth = FirebaseAuth.getInstance()
-
-        /*val backlogin = findViewById<TextView>(R.id.backLogin)
-        val register = findViewById<Button>(R.id.register)
-        val email = findViewById<TextView>(R.id.email)
-       val editpassword = findViewById<TextView>(R.id.edcPassword)
-        val confirmpassword = findViewById<TextView>(R.id.confirmPassword)*/
-
 
         binding.register.setOnClickListener {
             registerUser()

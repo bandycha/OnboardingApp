@@ -3,12 +3,25 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1605" />
         <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/drawable/back.xml" value="0.196" />
+        <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/drawable/box.xml" value="0.1685" />
+        <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/drawable/button.xml" value="0.1605" />
+        <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/drawable/button1.xml" value="0.2165" />
         <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/drawable/button_background.xml" value="0.196" />
+        <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/drawable/button_clicked.xml" value="0.1605" />
+        <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/drawable/button_save.xml" value="0.1685" />
+        <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/drawable/checkbox.xml" value="0.1605" />
+        <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/drawable/checkboxes.xml" value="0.1605" />
+        <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/drawable/form_background.xml" value="0.1685" />
         <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/drawable/ic_baseline_login_24.xml" value="0.2135" />
         <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/drawable/ic_check.xml" value="0.3305" />
         <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/drawable/ic_checkbox.xml" value="0.3305" />
+        <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/drawable/ic_checkbox_checked.xml" value="0.1605" />
+        <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/drawable/ic_checkbox_outline.xml" value="0.1605" />
         <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/drawable/ic_lock.xml" value="0.2165" />
+        <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/drawable/ic_person.xml" value="0.1685" />
         <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/drawable/ic_right.xml" value="0.3305" />
         <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/drawable/icon_background.xml" value="0.13" />
         <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/drawable/icon_outer_background.xml" value="0.13" />
@@ -17,13 +30,15 @@
         <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/drawable/login_background.xml" value="0.2455" />
         <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/drawable/login_edit_background.xml" value="0.196" />
         <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/drawable/view_pager_background.xml" value="0.13" />
+        <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/drawable/view_pager_bck.xml" value="0.1685" />
         <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/layout/activity_benefits.xml" value="0.22509057971014493" />
         <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/layout/activity_contact.xml" value="0.22509057971014493" />
         <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/layout/activity_dashboard.xml" value="0.25" />
-        <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/layout/activity_formalities.xml" value="0.35104166666666664" />
-        <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/layout/activity_formalities.xml" value="0.22" />
+        <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/layout/activity_register.xml" value="0.1206896551724138" />
+        <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/layout/card_layout.xml" value="0.18931159420289856" />
         <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/layout/dashboard_item_container.xml" value="0.22864583333333333" />
         <entry key="..\:/Users/ABy/AndroidStudioProjects/OnboardingApp/app/src/main/res/menu/home_toolbar_menu.xml" value="0.3625" />
